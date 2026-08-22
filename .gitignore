@@ -1,0 +1,38 @@
+# Java and Maven
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# Development environments
+.vscode/
+.idea/
+*.iml
+
+# Windows and macOS
+Thumbs.db
+.DS_Store
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Local Docker data
+docker-data/
+volumes/
+
+# Temporary and test files
+logs/
+tmp/
+*.tmp
+test-results/
+coverage/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
